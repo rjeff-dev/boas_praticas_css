@@ -1,0 +1,28 @@
+.product {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+
+    &__image {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        margin: 0 auto 12px auto;
+        display: block;
+    }
+
+    &__title {
+        font-family: 'Audiowide', cursive;
+        font-size: 24px;
+        margin-bottom: 8px;
+        color: #00ffff;
+    }
+
+    &__desc {
+        font-size: 14px;
+        color: #00ffff99;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

@@ -1,24 +1,24 @@
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.cabecalho {
-    background-color: #00000A;
+.header {
+    background-color: #00000a;
     color: #00ffff;
-    display: flex;
-    align-items: center;
     padding: 24px;
 
-    .logo-loja {
+    &__content {
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
         height: 80px;
         width: auto;
         margin-right: 15px;
     }
-}
 
-.tittle {
-    font-family: 'Audiowide', cursive;
-    font-size: 24px;
-    margin: 0;
+    &__title {
+        font-family: 'Audiowide', cursive;
+        font-size: 24px;
+        margin: 0;
+    }
 }
